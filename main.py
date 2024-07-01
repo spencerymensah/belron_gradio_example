@@ -4,8 +4,6 @@ import gradio as gr
 import google.generativeai as genai
 import pymupdf
 
-genai.configure(api_key="AIzaSyA32_OACE1eVlPVbFc0TkVijjxQFfuh8KM")
-
 generation_config = {
     "temperature": 1,
     "top_p": 0.95,
